@@ -1,15 +1,11 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
+import TaskManager from "../components/TaskManager.svelte";
 ---
 
 <Layout title="ToDo App">
   <main class="h-screen flex flex-col justify-center items-center">
     <h1 class="text-accent text-xl">Hello world</h1>
-    <Card
-      href="https://docs.astro.build/"
-      title="Documentation"
-      body="Learn how Astro works and explore the official API docs."
-    />
+    <TaskManager client:load />
   </main>
 </Layout>

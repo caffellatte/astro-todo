@@ -22,3 +22,8 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# prisma
+prisma/migrations
+prisma/dev.db
+prisma/dev.db-journal

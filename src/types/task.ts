@@ -9,7 +9,8 @@ export type Task = {
   title: string;
   description: string;
   priority: Priority;
-  dueDate: Date;
   completed: boolean;
+  dueDate: Date;
   createdAt: Date;
+  updatedAt: Date;
 };

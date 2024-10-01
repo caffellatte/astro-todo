@@ -3,9 +3,11 @@ import Layout from "../layouts/Layout.astro";
 import TaskManager from "../components/TaskManager.svelte";
 ---
 
-<Layout title="ToDo App">
-  <main class="h-screen flex flex-col justify-center items-center">
-    <h1 class="text-accent text-xl">Hello world</h1>
+<Layout title="Task Manager">
+  <main
+    class="max-w-2xl mx-auto mt-4 p-4 bg-white shadow-lg rounded-lg flex flex-col gap-4 border border-gray-100"
+  >
+    <h1 class="text-2xl font-bold">Task Manager</h1>
     <TaskManager client:load />
   </main>
 </Layout>

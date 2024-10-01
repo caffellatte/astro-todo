@@ -9,6 +9,9 @@ export default {
         "accent-dark": "hsl(var(--accent-dark))",
         "accent-gradient": "hsl(var(--accent-gradient))",
       },
+      fontFamily: {
+        atkinson: ['"Atkinson"'],
+      },
     },
   },
   plugins: [],
